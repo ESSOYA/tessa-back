@@ -1,0 +1,45 @@
+{
+  "name": "salon-coiffure-backend",
+  "version": "1.0.0",
+  "description": "API Backend pour Salon de Coiffure - Gestion des rendez-vous et employés",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "migrate": "node src/database/migrate.js"
+  },
+  "keywords": [
+    "salon",
+    "coiffure",
+    "api",
+    "rendez-vous",
+    "booking"
+  ],
+  "author": "Salon Coiffure Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "multer": "^2.0.2",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
