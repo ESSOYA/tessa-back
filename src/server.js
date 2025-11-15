@@ -49,7 +49,7 @@ const corsOptions = {
     
     const allowedOrigins = [
       process.env.FRONTEND_URL,
-      'http://localhost:3000',
+      'https://tessa-front.vercel.app',
       'http://localhost:5173',
       'http://localhost:8080',
       'http://localhost:8081',
